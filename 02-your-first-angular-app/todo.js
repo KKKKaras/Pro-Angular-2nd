@@ -1,9 +1,22 @@
-var model = {
-    user: "Peter",
-    items: [
-        { action: "Vegyél virágot", done: false },
-        { action: "Vegyél cipőt", done: false },
-        { action: "Vedd fel a jegeket", done: true },
-        { action: "H\vd fel Jóskát!", done: false }
-    ]
-};
+"use strict";
+var Model = (function () {
+    function Model() {
+        this.user = "Adam";
+        this.items = [
+            new TodoItem("Buy Flowers", false),
+            new TodoItem("Get Shoes", false),
+            new TodoItem("Collect Tickets", false),
+            new TodoItem("Call Joe", false)
+        ];
+    }
+    return Model;
+}());
+exports.Model = Model;
+var TodoItem = (function () {
+    function TodoItem(action, done) {
+        this.action = action;
+        this.done = done;
+    }
+    return TodoItem;
+}());
+exports.TodoItem = TodoItem;
