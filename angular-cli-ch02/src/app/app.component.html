@@ -6,6 +6,7 @@
       <th></th>
       <th>Description</th>
       <th>Done</th>
+      <th>Complete</th>
     </tr>
   </thead>
   <tbody>
@@ -15,6 +16,9 @@
       <td [ngSwitch]="item.done">
         <span *ngSwitchCase="true">Yes</span>
         <span *ngSwitchDefault>No</span>
+      </td>
+      <td>
+        <input type="checkbox" [(ngModel)]="item.done" />
       </td>
     </tr>
   </tbody>
