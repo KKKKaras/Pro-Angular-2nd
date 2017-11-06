@@ -47,4 +47,21 @@
 
 ## [2.5 - Summary](./02.md#2.5)
 
-# Chapter 3 - 
+# [Chapter 3 - Putting Angular in Context]((./03.md))
+
+
+## 3.1 Understanding Where Angular Excels
+
+### 3.1.1 Understanding Round-Trip and Single-Page Applications
+
+## 3.2 Understanding the MVC Pattern
+### 3.2.1 Understanding Models
+### 3.2.2 Understanding Controllers/Components
+#### 3.2.2.1 Understanding View Data
+### 3.2.3 Understanding Views/Templates
+## 3.3 Understanding RESTful Services
+## 3.4 Common Design Pitfalls
+### 3.4.1 Putting the Logic in the Wrong Place
+### 3.4.2 Adopting the Data Store Data Format
+### 3.4.3 Just Enough Knowledge to Cause Trouble
+## 3.5 Summary
