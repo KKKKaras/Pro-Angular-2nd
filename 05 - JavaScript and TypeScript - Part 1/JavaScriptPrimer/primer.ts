@@ -1,11 +1,8 @@
-let myFunc = function(nameFunction) {
-  return "Hello " + nameFunction() + ".";
-};
+let myFunc = nameFunction => "Hello " + nameFunction() + ".";
 
-let printName = function(nameFunction, printFunction) {
+let printName = (nameFunction, printFunction) =>
   printFunction(myFunc(nameFunction));
-};
 
 printName(function() {
-  return "Adam";
+  return "Peter";
 }, console.log);
