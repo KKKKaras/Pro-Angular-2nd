@@ -2,13 +2,12 @@
 import { Name as OtherName } from "./modules/DuplicateName";
 import { TempConverter } from "./tempConverter";
 
-let name = new Name("Peter", "Csontos");
-let loc = new WeatherLocation("sunny", "Budapest");
-let other = new OtherName();
+let cities: { [index: string]: [string, string] } = {};
 
-let cTemp = TempConverter.convertFtoC("38");
+cities["Budapest"] = ["raining", TempConverter.convertFtoC("38")];
+cities["Paris"] = ["sunny", TempConverter.convertFtoC("52")];
+cities["Berlin"] = ["snowing", TempConverter.convertFtoC("23")];
 
-let tuple: [string, string, string];
-tuple = ["Budapest", "sunny", TempConverter.convertFtoC(38)];
-
-console.log(`It is ${tuple[2]} degree C and ${tuple[1]} in ${tuple[0]} `);
+for (let key in cities) {
+  console.log(`${key}: ${cities[key][0]}, ${cities[key][1]}`);
+}
