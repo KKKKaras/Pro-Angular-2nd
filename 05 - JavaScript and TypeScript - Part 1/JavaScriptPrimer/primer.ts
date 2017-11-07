@@ -1,9 +1,20 @@
-let myGlobalVar = "apples";
-let myFunc = function(name) {
-  let myLocalVar = "sunny";
-  let innerFunction = function() {
-    return "Hello " + name + ". Today is " + myLocalVar + ".";
-  };
-  return innerFunction();
+let firstBool = true;
+let secondBool = false;
+
+// --
+let firstString = "This is a string";
+let secondString = "And so is this";
+
+// --
+let message = "It is " + "rainy" + " today";
+let messageFunction = function(weather) {
+  let message = `It is ${weather} today`;
+  console.log(message);
 };
-console.log(myFunc("Adam"));
+
+messageFunction("raining");
+
+// --
+let daysInWeek = 7;
+let pi = 3.14;
+let hexValue = 0xffff;
