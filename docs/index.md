@@ -114,3 +114,25 @@
 ### 5.7.3 Enumerating the Contents of an Array
 ### 5.7.4 Using the Built-in Array Methods
 ## 5.8 Summary
+
+# Chapter 6: JavaScript and TypeScript: Part 2
+
+## 6.1 Preparing the Example Project
+## 6.2 Working with Objects
+### 6.2.1 Using Object Literals
+### 6.2.2 Using Functions as Methods
+### 6.2.3 Defining Classes
+## 6.3 Working with JavaScript Modules
+### 6.3.1 Creating Modules
+### 6.3.2 Importing from JavaScript Modules
+### 6.3.2.1 Importing Specific Types 
+### 6.3.2.2 Renaming Imports
+### 6.3.2.3 Importing All of the Types in a Module
+## 6.4 Useful TypeScript Features
+### 6.4.1 Using Type Annotations
+#### 6.4.1.1 Type Annotating Properties and Variables
+#### 6.4.1.2 Specifying Multiple Types or Any Type
+### 6.4.2 Using Tuples
+### 6.4.3 Using Indexable Types
+### 6.4.4 Using Access Modifiers
+## Summary
