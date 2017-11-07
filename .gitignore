@@ -59,3 +59,5 @@ typings/
 
 # only typescript files allowed
 *.js
+docs/pro-angular2.sublime-project
+docs/pro-angular2.sublime-workspace
