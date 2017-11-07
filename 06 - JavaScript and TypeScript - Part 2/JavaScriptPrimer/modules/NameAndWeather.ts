@@ -15,7 +15,7 @@ export class WeatherLocation {
     this.city = city;
   }
 
-  getweatherMessage() {
-    return `It is ${this.wheater} in ${this.city}`;
+  get weatherMessage() {
+    return `It is ${this.weather} in ${this.city}`;
   }
 }
