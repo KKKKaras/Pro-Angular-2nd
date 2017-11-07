@@ -1,7 +1,10 @@
 ﻿let myData = {
   name: "Adam",
-  weather: "sunny"
+  weather: "sunny",
+  printMessages: function() {
+    console.log("Hello " + myData.name + ". ");
+    console.log("Tday is " + myData.weather + ".");
+  }
 };
 
-console.log("Hello " + myData.name + ". ");
-console.log("Tday is " + myData.weather + ".");
+myData.printMessages();
