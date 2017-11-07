@@ -47,11 +47,8 @@
 
 ## [2.5 - Summary](./02.md#2.5)
 
-# [Chapter 3 - Putting Angular in Context]((./03.md))
-
-
+# [Chapter 3 - Putting Angular in Context](./03.md)
 ## 3.1 Understanding Where Angular Excels
-
 ### 3.1.1 Understanding Round-Trip and Single-Page Applications
 
 ## 3.2 Understanding the MVC Pattern
@@ -59,9 +56,33 @@
 ### 3.2.2 Understanding Controllers/Components
 #### 3.2.2.1 Understanding View Data
 ### 3.2.3 Understanding Views/Templates
+
 ## 3.3 Understanding RESTful Services
+
 ## 3.4 Common Design Pitfalls
 ### 3.4.1 Putting the Logic in the Wrong Place
 ### 3.4.2 Adopting the Data Store Data Format
 ### 3.4.3 Just Enough Knowledge to Cause Trouble
+
 ## 3.5 Summary
+
+# [Chapter 4 - An HTML and CSS Primer](./04.md)
+## 4.1 Preparing the Example Project
+## 4.2 Understanding HTML
+### 4.2.1 Understanding Void Elements
+### 4.2.2 Understanding Attributes
+### 4.2.3 Applying Attributes Without Values
+### 4.2.4 Quoting Literal Values in Attributes
+### 4.2.5 Understanding Element Content
+### 4.2.6 Understanding the Document Structure
+## 4.3 Understanding Bootstrap
+### 4.3.1 Applying Basic Bootstrap Classes
+#### 4.3.1.1 Using Contextual Classes
+#### 4.3.1.2 Using Margin and Padding
+#### 4.3.1.3 Changing Element Sizes
+### 4.3.2 Using Bootstrap to Style Tables
+### 4.3.3 Using Bootstrap to Create Forms
+### 4.3.4 Using Bootstrap to Create Grids
+#### 4.3.4.1 Creating Responsive Grids
+#### 4.3.4.2 Creating a Simplified Grid Layout
+## 4.4 Summary
