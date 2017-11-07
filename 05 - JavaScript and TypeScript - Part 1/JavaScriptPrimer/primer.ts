@@ -1,5 +1,9 @@
-let myFunc = function(name) {
-  return "Hello " + name + ".";
+let myFunc = function(nameFunction) {
+  return "Hello " + nameFunction() + ".";
 };
 
-console.log(myFunc("Adam"));
+console.log(
+  myFunc(function() {
+    return "Adam";
+  })
+);
