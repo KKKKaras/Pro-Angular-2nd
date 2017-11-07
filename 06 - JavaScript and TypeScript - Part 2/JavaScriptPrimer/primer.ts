@@ -1,14 +1,14 @@
-﻿import * as NameAndWeatherLocation from "./modules/NameAndWeather";
+﻿import { Name, WeatherLocation } from "./modules/NameAndWeather";
 import { Name as OtherName } from "./modules/DuplicateName";
 import { TempConverter } from "./tempConverter";
 
-let name = new NameAndWeatherLocation.Name("Peter", "Csontos");
-let loc = new NameAndWeatherLocation.WeatherLocation("sunny", "Budapest");
+let name = new Name("Peter", "Csontos");
+let loc = new WeatherLocation("sunny", "Budapest");
 let other = new OtherName();
 
-let cTemp = TempConverter.convertFtoC(38);
+let cTemp = TempConverter.convertFtoC("38");
 
-console.log(name.nameMessage);
-console.log(loc.weatherMessage);
-console.log(other.message);
-console.log(`The temp is ${cTemp}C`);
+let tuple: [string, string, string];
+tuple = ["Budapest", "sunny", TempConverter.convertFtoC(38)];
+
+console.log(`It is ${tuple[2]} degree C and ${tuple[1]} in ${tuple[0]} `);
