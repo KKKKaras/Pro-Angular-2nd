@@ -10,6 +10,14 @@
       "name": "localhost:4200",
       "url": "http://localhost:4200",
       "webRoot": "${workspaceRoot}"
+    },
+    {
+      "name": "Firefox :: localhost:4200",
+      "type": "firefox",
+      "request": "launch",
+      "reAttach": true,
+      "url": "http://localhost:4200/",
+      "webRoot": "${workspaceFolder}"
     }
   ]
 }
