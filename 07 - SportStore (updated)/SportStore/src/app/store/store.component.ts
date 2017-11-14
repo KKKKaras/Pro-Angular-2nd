@@ -32,7 +32,11 @@ export class StoreComponent implements OnInit {
   }
 
   changePage(newPage: number) {
-    this.productsPerPage = Number(newPage);
+    this.selectedPage = newPage;
+  }
+
+  changePageSize(newSize: number) {
+    this.productsPerPage = Number(newSize);
     this.changePage(1);
   }
 
